@@ -4,7 +4,7 @@ import numpy as np
 import dlib
 
 cap = cv2.VideoCapture("test_video.mp4")
-# We initialise detector of dlib
+# We initialise     detector of dlib
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
