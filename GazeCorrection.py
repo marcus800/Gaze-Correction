@@ -694,10 +694,7 @@ def loaddll():
     ctypes.cdll.LoadLibrary(os.path.abspath('IntraFaceResources\\opencv_calib3d246.dll'))
 
     ctypes.cdll.LoadLibrary(os.path.abspath('IntraFaceResources\\IntraFaceDLL.dll'))
-    # intraFace = ctypes.cdll.LoadLibrary(os.path.abspath('IntraFaceResources\\IntraFaceTracker.dll'))
-    intraFace = ctypes.cdll.LoadLibrary(
-        'C:\\Users\\Marcus\\OneDrive\\Documents\\GitHub\\IntraFace\\x64\\Release\\IntraFaceTracker.dll')
-
+    intraFace = ctypes.cdll.LoadLibrary(os.path.abspath('IntraFaceResources\\IntraFaceTracker.dll'))
     return intraFace
 
 
